@@ -1,0 +1,66 @@
+###################################
+# ENVIRONMENT VARIABLES
+###################################
+.env
+*.env
+
+###################################
+# PYTHON
+###################################
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+###################################
+# VIRTUAL ENVIRONMENTS
+###################################
+venv/
+env/
+venv_gpu/
+
+###################################
+# MODEL FILES (DO NOT PUSH)
+###################################
+*.h5
+*.keras
+*.tflite
+*.pb
+*.onnx
+*.pth
+*.pt
+*.ckpt
+*.weights
+
+# model directories
+models/
+age_gender_model.keras
+
+###################################
+# DATASETS & LARGE FILES
+###################################
+*.zip
+*.csv
+*.npy
+*.npz
+*.pkl
+
+# dataset folders
+UTKFace/
+archive/
+processed_data/
+
+###################################
+# IMAGE OUTPUTS / REPORTS
+###################################
+*.png
+*.jpg
+*.jpeg
+
+###################################
+# OS / EDITORS
+###################################
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

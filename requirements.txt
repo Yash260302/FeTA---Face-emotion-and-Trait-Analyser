@@ -1,0 +1,44 @@
+streamlit
+streamlit-webrtc
+opencv-python
+tensorflow
+numpy
+scikit-learn
+
+3. Graphical Password Authentication
+ According to a study, the humanbrainhas a greater capabilityof
+ remembering what they see(pictures) rather than alphanumeric
+ characters.
+ Therefore, graphical passwords overcome the disadvantage of
+ alphanumericpasswords.
+ GraphicalPasswordAuthenticationhasthreemajorcategoriesbased
+ ontheactivitytheyuseforauthenticationofthepassword:
+ RecognitionbasedAuthentication:Auserisgivenasetofimagesand
+ he has to identify the image he selected during registration. For
+ example,Passfacesisagraphicalpasswordschemebasedonrecognizing
+ humanfaces.
+3. Graphical Password Authentication
+ Duringpasswordcreation,usersaregivenalargesetofimagestoselect
+ from.Tologin,usershave toidentifythepre-selectedimagefromthe
+ severalimagespresentedtohim.
+ RecallbasedAuthentication:Auser isaskedtoreproducesomething
+ that he createdor selected at the registration stage. For example, in
+ thePasspointscheme,ausercanclickanypointinanimagetocreatethe
+ password and a tolerance around each pixel is calculated. During
+ authentication,theuserhastoselectthepointswithinthetoleranceinthe
+ correctsequencetologin.
+ Cued Recall: Cued Click Points (CCP) is an alternative to the
+ PassPointstechnique.InCCP,usersclickonepointoneachimagerather
+ thanfivepointsononeimage(unlikePassPoints).
+3. Graphical Password Authentication
+ It offers cued-recall and instantlyalerts theusers if theymakeamistake
+ whileenteringtheirlatestclick-point.
+ Advantages:
+ • Itisuser-friendly.
+ • Itprovideshighersecuritythanothertraditionalpasswordschemes.
+ • Dictionaryattacksareinfeasible.
+ • CCPmakesattacksbasedonhotspotanalysismorechallenging.
+ Disadvantages:
+ • Registrationandlogintaketoolong.
+ • Itrequiresmorestoragespacebecauseofimages.
+ • Shouldersurfing
